@@ -1,0 +1,21 @@
+{
+  "name": "sober",
+  "displayName": "Sober",
+	"description": "Sober up a bit pal, we've got shitcode to write.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sober",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sober-color-theme.json"
+      }
+    ]
+  }
+}
